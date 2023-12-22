@@ -9,4 +9,8 @@
 
 ## 모델 설명 
 
+#Latent Diffusion의 흐름
+
 ![image](https://github.com/kong276818/-Image-Inpainting-using-Latent-Diffusion/assets/106736474/b56c3c05-6626-481b-b3bb-03767dcf2451)
+
+
