@@ -63,11 +63,19 @@ DDIM같은 경우는 DDPM과 다르게 markov chain을 따르지 않게 됩니�
 
 ## 실행방법
 
+# Pretrained model https://heibox.uni-heidelberg.de/f/4d9ac7ea40c64582b7c9/?dl=1 
+
+위에서 학습 모델을 다운로드 하여 models안에 ldm의 Inpainting big안에 넣습니다.
+
+다음
+
 Inpaint.py에서 IMG_PATH에 원하는 사진을 넣고 실행합니다.
 
 STEPS = 50
 IMG_PATH = 'data/09.jpg'
 OUTPUT_PATH = 'outputs'
+
+
 
 ## 요구사항 
 
@@ -91,7 +99,7 @@ dependencies:
     - pudb==2019.2
     - imageio==2.9.0
     - imageio-ffmpeg==0.4.2
-    - pytorch-lightning==1.4.2
+    - pytorch-lightning==1.6.1
     - omegaconf==2.1.1
     - test-tube>=0.7.5
     - streamlit>=0.73.1
